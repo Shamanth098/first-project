@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Products </h1>
+        <nav>
+            <ul>
+                <li><a href="shamanth1.html">Home</a></li>
+                <li><a href="shamanth2.html">Categories</a></li>
+                <li><a href="shamanth3.html">Account</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="product">
+    <img src="oneplus.jpg" alt="Product 1">
+    <h2>Phone</h2>
+    <p>8GB RAM,256GB ROM
+      <br>
+           4115Mh battry
+      
+    </p>
+    <span>31000 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+  
+  <main>
+      <section class="product">
+    <img src="laptop.jpg" alt="Product 2">
+    <h2>Laptop</h2>
+    <p>intel core i5 11th gen(16gb/512gb)
+    </p>
+    <span>55000 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+  
+  
+   <main>
+      <section class="product">
+    <img src="watch.jpg" alt="Product 3">
+    <h2>watch</h2>
+    <p>
+      Evolve 3 1.43, AMOLED Always-On Display with Bluetooth Calling, Metallic Design Smartwatch
+    </p>
+    <span>1499 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+  
+  
+    <main>
+      <section class="product">
+    <img src="shoes.jpg" alt="Product 4">
+    <h2>Shoes</h2>
+   
+        <div class="size-selector">
+   <p>
+      Select your shoes size
+    </p>
+          
+  <input type="radio" id="size6" name="size" value="6">
+  <label for="size6">6</label>
+
+  <input type="radio" id="size7" name="size" value="7">
+  <label for="size7">7</label>
+          
+  <input type="radio" id="size8" name="size" value="8">
+  <label for="size8">8</label>
+          
+  <input type="radio" id="size9" name="size" value="9">
+  <label for="size9">9</label>
+          
+  <input type="radio" id="size10" name="size" value="10">
+  <label for="size10">10</label>
+        
+    <span>499 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+  
+      
+      
+    <main>
+      <section class="product">
+    <img src="earbuds.jpg" alt="Product 5">
+    <h2>Earbuds</h2>
+    <p>
+      Boult W40 with Quad Mic ENC, 48H Battery Life, Low Latency Gaming, Made in India, 5.3v Bluetooth Headset (Electric Black, True Wireless)
+    </p>
+    <span>1190 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+    
+    <main>
+      <section class="product">
+    <img src="chamra.jpg" alt="Product 6">
+    <h2>Camera</h2>
+    <p>
+      NIKON Z6 II Body Mirrorless Camera with 64GB SD Card (Black)
+    </p>
+    <span>1190 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+  
+  <main>
+      <section class="product">
+    <img src="washing.jpg" alt="Product 7">
+    <h2>Washing Machine</h2>
+    <p>
+      SAMSUNG 8 kg 5 Star, Al Ecobubble, Wi-Fi, Hygiene Steam, Digital Inverter Fully Automatic Front Load with In-built Heater Black
+    </p>
+    <span>40000 rs</span>
+        <br>
+        <button>Buy now</button>
+    <button>Add to Cart</button>
+</section>
+    </main>
+  
+  
+  
+  
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+}
+
+.product button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  .size-selector input[type=radio] {
+    display: none;
+}
+
+.size-selector label {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 40%;
+    width: 20px;
+    height:20px;
+    text-align:center;
+}
+
+.size-selector input[type=radio]:checked + label {
+   border-color: blue; 
+  background-color: blue;
+   color: white;
+  
+  .cart-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    animation: cartAnimation 1s ease-out;
+}
+
+@keyframes cartAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+
+
+  
+
+  
+  </style>
+  
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the header element
+    var header = document.querySelector("header");
+
+    // Function to toggle background color
+    function toggleBackgroundColor() {
+        // Check current background color
+        var currentColor = header.style.backgroundColor;
+
+        // Toggle between two colors
+        if (currentColor === "rgb(85, 85, 85)" || currentColor === "#555") {
+            header.style.backgroundColor = "#333";
+        } else {
+            header.style.backgroundColor = "#555";
+        }
+    }
+
+    // Add click event listener to the header
+    header.addEventListener("click", toggleBackgroundColor);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    var cartLink = document.querySelector("nav ul li a[href='#']");
+    var cartItemsCount = 0;
+
+    function addToCart() {
+        cartItemsCount++;
+        updateCartCount();
+        animateCartItem();
+    }
+
+    function updateCartCount() {
+        cartLink.textContent = "Cart (" + cartItemsCount + ")";
+    }
+
+    function animateCartItem() {
+        var cartIcon = document.createElement("div");
+        cartIcon.classList.add("cart-icon");
+        document.body.appendChild(cartIcon);
+
+        setTimeout(function() {
+            document.body.removeChild(cartIcon);
+        }, 1000);
+    }
+
+    cartLink.addEventListener("click", addToCart);
+});
+
+
+</script>
+</body>
+
+</html>
